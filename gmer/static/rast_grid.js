@@ -63,7 +63,7 @@ function defineGrid(bbox, start, end, numCells) {
 	strokeOpacity: 0.8,
 	strokeWeight: 2	
 	});
-	rect.setMap(map);
+//	rect.setMap(map);
 
 	var centerX = bbox.getCenter().lng();
 	var centerY = bbox.getCenter().lat();

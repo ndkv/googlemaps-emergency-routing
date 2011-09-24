@@ -57,7 +57,7 @@ $(document).ready(function () {
 
 	
 	//event listener for right mouse click
-	google.maps.event.addListener(map,'rightclick', function (event) {
+    google.maps.event.addListener(map,'rightclick', function (event) {
         switch (operatingMode) {
             case "routing":
                 if (routeCoordinates[1] == undefined) {
@@ -77,11 +77,6 @@ $(document).ready(function () {
                     current_selection = buildConstraint(constraintInitialCoordinates);
                     save_constraint(current_selection);
                     $("button", ".deleteConstraint").button("enable"); 
-                    
-                    
-                    //for (i in constraintMarkers) {
-//                        
-                    //}
                     
                     constraintInitialCoordinates = [];
                     destroyMarkers();

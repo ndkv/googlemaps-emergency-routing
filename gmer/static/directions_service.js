@@ -106,7 +106,7 @@ function invokeDirectionsService (origin, destination, waypts) {
 			
 			
 			response.gmii_total_length = total_length;
-			alert(response.gmii_total_length);
+			//alert(response.gmii_total_length);
 			
 			var newDisp = createDirectionsDisplay();
 			newDisp.setDirections(response);

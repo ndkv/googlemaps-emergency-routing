@@ -112,7 +112,7 @@ function drawDP(dpPath) {
     //google.maps.event.addListener(polyline, 'click', function(event) {set_route(polyline);});
 
     google.maps.event.addListener(polyline,'mouseover', function (event) {
-        alert("mouseover");
+        //alert("mouseover");
         if (polylineMarkers.length == 0) {
             for (i in dpPath) {
             //alert(dpPath[i]);

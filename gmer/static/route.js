@@ -7,7 +7,7 @@ function buildRoute() {
     var latLngPath = [], waypts = [];
     
     numberOfCells = document.getElementById("cellSize").value;
-    alert(constraintConstructs.length);
+    //alert(constraintConstructs.length);
     //global !!!!
     //routeStart = routeCoordinates[0];
     //routeEnd = routeCoordinates[1];
@@ -69,7 +69,7 @@ function buildRoute() {
                     
                     //call to a_star function, defined in aStart1.js
                     aStarPath = a_star(routeStartGrid, routeEndGrid, grid, gridRows, gridColumns);
-                    alert("length: " + aStarPath.length);
+                    ///alert("length: " + aStarPath.length);
                     gridTopLeftX = raster[3][0];
                     gridTopLeftY = raster[3][1];
                     stepLat = raster[3][2];
@@ -87,7 +87,7 @@ function buildRoute() {
                     
                     latLngPath.push(routeEnd);
                 } else {
-                    alert(routeStart);
+                    //alert(routeStart);
                     alert(routeEnd);
                 }
             }
