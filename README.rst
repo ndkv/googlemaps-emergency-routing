@@ -1,18 +1,18 @@
-=============================
-Google Maps Emergency Routing
-=============================
+====
+gmER
+====
 
-**GM-ER is a Google Maps mashup that finds the shortest path between two points around a user-specified polygon.** The use case is the calculation of shortest paths in an urban environment that has a damaged infrastructure as the result of a (natural) disaster. 
+**gmER is a Google Maps mashup that finds the shortest path between two points around a user-specified polygon.** The use case is the calculation of shortest paths in an urban environment that has a damaged infrastructure as the result of a (natural) disaster. 
 
 This application stems from a practical assignment for the TU Delft Geomatics course Crisis Management. The application started out as a study on the feasibility of web mapping platforms to perform some basic spatial analyses that may be useful to rescue workers. It turns out that first responders still rely heavily on paper maps to mark blockages and navigate the road network. The advent of mobile devices brings more advanced and automatic means of performing these tasks.
 
 The application consists of two parts: data collection and shortest path analysis. Recent disasters have demonstrated the crowd's power to aid the rescue process. This app enables people to collect infrastructure information from multiple sources, be it eye witness reports, news reports, satellite images, Twitter messages, etc. by letting them mark damaged infrastructure on a map. Once all damages are marked, a shortest path algorithm calculates the fastest route between two points taking the marked damages into account.  
 
+The **desktop** version of the app is deployed at http://gmer.ndkv.nl/desktop/
 
+The **mobile** version of the app is deployed at http://gmer.ndkv.nl/mobile/
 
-The **desktop** version of the app is deployed at http://gm-er.ndkv.nl/desktop/
-
-The **mobile** version of the app is deployed at http://gm-er.ndkv.nl/mobile/
+The code lives at http://www.github.com/ndkv/gmer/
 
 Usage
 =====
@@ -46,8 +46,10 @@ TO DO
 * Implement GeoJSON
 * Make the desktop client mobile device friendly
 * Automatic reload of comments after a new one has been submitted
-* Export of route solutions in KML, GML, GeoJSON, etc. 
+* Export of route solutions in KML, GML, GeoJSON, etc.
+* Redesign the interfaces
 
 Publications
 ============
+
 http://www.isprs.org/proceedings/XXXVIII/Gi4DM/CDDATA/authorIndex.html
